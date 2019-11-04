@@ -4775,20 +4775,19 @@ Show
 #   [2810] Scarabs
 #------------------------------------
 
-Show # $tier->t1 $type->fragments->scarabs
-	Class "Map Fragments"
-	BaseType "Gilded Sulphite Scarab"
-	SetFontSize 45
-	SetTextColor 159 15 213 255
-	SetBorderColor 159 15 213 255
-	SetBackgroundColor 255 255 255 255      # BACKGROUND:	 T0 Drop
-	PlayAlertSound 6 300                    # DROPSOUND:	 T0 Drop
-	PlayEffect Yellow
-	MinimapIcon 0 Red Hexagon
+#Show # $tier->t1 $type->fragments->scarabs
+#	Class "Map Fragments"
+#	SetFontSize 45
+#	SetTextColor 159 15 213 255
+#	SetBorderColor 159 15 213 255
+#	SetBackgroundColor 255 255 255 255      # BACKGROUND:	 T0 Drop
+#	PlayAlertSound 6 300                    # DROPSOUND:	 T0 Drop
+#	PlayEffect Yellow
+#	MinimapIcon 0 Red Hexagon
 
 Show # $tier->t2 $type->fragments->scarabs
 	Class "Map Fragments"
-	BaseType "Gilded Bestiary Scarab" "Gilded Cartography Scarab" "Gilded Divination Scarab" "Gilded Harbinger Scarab" "Gilded Legion Scarab" "Gilded Torment Scarab" "Polished Harbinger Scarab" "Polished Legion Scarab" "Polished Sulphite Scarab" "Rusted Sulphite Scarab"
+	BaseType "Gilded Bestiary Scarab" "Gilded Cartography Scarab" "Gilded Divination Scarab" "Gilded Harbinger Scarab" "Gilded Legion Scarab" "Gilded Sulphite Scarab" "Gilded Torment Scarab" "Polished Harbinger Scarab" "Polished Legion Scarab" "Polished Sulphite Scarab" "Rusted Sulphite Scarab"
 	SetFontSize 45
 	SetTextColor 255 255 255 255            # TEXTCOLOR:	 High Special Base
 	SetBorderColor 255 255 255 255          # BORDERCOLOR:	 Neutral T1
