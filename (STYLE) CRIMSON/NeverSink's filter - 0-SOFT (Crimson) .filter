@@ -1,7 +1,7 @@
 #===============================================================================================================
 # NeverSink's Indepth Loot Filter - for Path of Exile
 #===============================================================================================================
-# VERSION:  7.6.2020.9.14
+# VERSION:  7.6.2020.9.18
 # TYPE:     0-SOFT
 # STYLE:    CRIMSON
 # AUTHOR:   NeverSink
@@ -317,7 +317,7 @@ Show # $tier->t1-1 $type->rare->crusader
 	HasInfluence Crusader
 	ItemLevel >= 82
 	Rarity <= Rare
-	BaseType "Crystal Belt" "Opal Ring" "Titanium Spirit Shield" "Jewelled Foil" "Vermillion Ring" "Dragoon Sword" "Stygian Vise" "Spiked Gloves" "Imbued Wand" "Gripped Gloves"
+	BaseType "Crystal Belt" "Spiked Gloves" "Titanium Spirit Shield" "Jewelled Foil" "Vermillion Ring" "Stygian Vise"
 	SetFontSize 45
 	SetTextColor 123 50 165 255             # TEXTCOLOR:	 ShaperElder
 	SetBorderColor 128 50 165 255           # BORDERCOLOR:	 Shaper T1
@@ -330,7 +330,7 @@ Show # $tier->t1-2 $type->rare->crusader
 	HasInfluence Crusader
 	ItemLevel >= 84
 	Rarity <= Rare
-	BaseType "Ezomyte Tower Shield" "Lacquered Buckler" "Marble Amulet" "Fingerless Silk Gloves" "Opal Wand" "Prismatic Ring" "Pinnacle Tower Shield"
+	BaseType "Ezomyte Tower Shield" "Marble Amulet" "Fingerless Silk Gloves" "Prismatic Ring"
 	SetFontSize 45
 	SetTextColor 123 50 165 255             # TEXTCOLOR:	 ShaperElder
 	SetBorderColor 128 50 165 255           # BORDERCOLOR:	 Shaper T1
@@ -343,7 +343,7 @@ Show # $tier->t1-3 $type->rare->crusader
 	HasInfluence Crusader
 	ItemLevel >= 85
 	Rarity <= Rare
-	BaseType "Two-Toned Boots" "Titan Greaves" "Sorcerer Boots" "Titan Gauntlets" "Vaal Regalia" "Moonstone Ring" "Karui Sceptre" "Onyx Amulet" "Fossilised Spirit Shield" "Astral Plate" "Arcanist Slippers" "Void Sceptre" "Ruby Ring" "Amethyst Ring" "Coral Ring" "Agate Amulet" "Spike-Point Arrow Quiver" "Diamond Ring" "Omen Wand" "Pig-Faced Bascinet" "Two-Stone Ring" "Void Axe" "Vanguard Belt"
+	BaseType "Two-Toned Boots" "Titan Greaves" "Sorcerer Boots" "Titan Gauntlets" "Riveted Gloves" "Vaal Regalia" "Moonstone Ring" "Karui Sceptre" "Imbued Wand" "Omen Wand" "Astral Plate" "Onyx Amulet" "Void Sceptre" "Ruby Ring" "Amethyst Ring" "Coral Ring" "Spike-Point Arrow Quiver" "Diamond Ring" "Carnal Armour" "Pig-Faced Bascinet" "Two-Stone Ring" "Void Axe"
 	SetFontSize 45
 	SetTextColor 123 50 165 255             # TEXTCOLOR:	 ShaperElder
 	SetBorderColor 128 50 165 255           # BORDERCOLOR:	 Shaper T1
@@ -360,7 +360,7 @@ Show # $tier->t2-1 $type->rare->crusader
 	HasInfluence Crusader
 	ItemLevel >= 80
 	Rarity <= Rare
-	BaseType "Spiked Gloves" "Carnal Sceptre" "Jewelled Foil" "Eclipse Staff" "Pinnacle Tower Shield" "Opal Sceptre" "Unset Ring" "Opal Ring" "Vaal Greatsword" "Gemini Claw" "Sambar Sceptre" "Platinum Kris" "Vermillion Ring" "Two-Toned Boots" "Legion Hammer" "Opal Wand" "Crusader Chainmail" "Lapis Amulet" "Tornado Wand" "Serpent Wand" "Faun's Horn" "Pernarch" "Corrugated Buckler" "Stygian Vise" "Prismatic Ring" "Gripped Gloves" "Fingerless Silk Gloves" "Crystal Belt" "Titanium Spirit Shield" "Marble Amulet" "Steel Ring" "Imbued Wand" "Saint's Hauberk" "Imperial Claw" "Moon Staff" "Prophecy Wand" "Moonstone Ring" "Citrine Amulet" "Onyx Amulet" "Ezomyte Spiked Shield" "Cerulean Ring" "Slink Boots" "Eelskin Tunic" "Dragoon Sword" "Heathen Wand" "Serrated Arrow Quiver" "Ornate Ringmail" "Mosaic Kite Shield" "Vaal Spirit Shield" "Stealth Boots"
+	BaseType "Spiked Gloves" "Spiraled Wand" "Jewelled Foil" "Eclipse Staff" "Lead Sceptre" "Tornado Wand" "Unset Ring" "Two-Stone Ring" "Vaal Greatsword" "Gemini Claw" "Sambar Sceptre" "Dragoon Sword" "Vermillion Ring" "Two-Toned Boots" "Stealth Boots" "Opal Wand" "Mosaic Kite Shield" "Lapis Amulet" "Corrugated Buckler" "Shadow Sceptre" "Faun's Horn" "Heathen Wand" "Tiger Hook" "Stygian Vise" "Prismatic Ring" "Gripped Gloves" "Fingerless Silk Gloves" "Crystal Belt" "Titanium Spirit Shield" "Marble Amulet" "Steel Ring" "Imbued Wand" "Saint's Hauberk" "Imperial Claw" "Harmonic Spirit Shield" "Prophecy Wand" "Moonstone Ring" "Citrine Amulet" "Onyx Amulet" "Ezomyte Spiked Shield" "Cerulean Ring" "Carnal Sceptre" "Chain Hauberk" "Moon Staff" "Ezomyte Tower Shield" "Pernarch" "Ornate Ringmail" "Eelskin Tunic" "Prophet Crown" "Sorcerer Boots"
 	SetFontSize 45
 	SetTextColor 255 255 255 255            # TEXTCOLOR:	 Cosmetic White
 	SetBorderColor 255 255 255 255          # BORDERCOLOR:	 T1 highlight
@@ -373,7 +373,7 @@ Show # $tier->t2-2 $type->rare->crusader
 	HasInfluence Crusader
 	ItemLevel >= 85
 	Rarity <= Rare
-	BaseType "Bone Helmet" "Compound Bow" "Antique Greaves" "Crystal Wand" "Grappler" "Spidersilk Robe" "Hubris Circlet" "Ezomyte Axe" "Vaal Buckler" "Imperial Maul" "Omen Wand" "Lacquered Buckler" "Exquisite Blade" "Thicket Bow" "Void Sceptre" "Two-Stone Ring" "Profane Wand" "Siege Axe" "Cabalist Regalia" "Fossilised Spirit Shield" "Turquoise Amulet" "Sharkskin Tunic" "General's Brigandine" "Coronal Leather" "Gutting Knife" "Savant's Robe" "Soldier Gloves" "Magistrate Crown" "Spike-Point Arrow Quiver" "Colosseum Plate" "Ambusher" "Conjurer Gloves" "Sentinel Jacket" "Leather Belt" "Legion Sword" "Astral Plate" "Widowsilk Robe" "Arcanist Slippers" "Sorcerer Gloves" "Titan Greaves" "Diamond Ring" "Vaal Regalia" "Assassin's Garb" "Necromancer Silks" "Mirrored Spiked Shield" "Sadist Garb" "Varnished Coat" "Agate Amulet" "Gold Amulet" "Coronal Maul" "Coral Ring" "Amber Amulet" "Desert Brigandine" "Chain Hauberk" "Engraved Greatsword" "Stag Sceptre" "Ruby Ring" "Imperial Buckler" "Great Mallet" "Vaal Axe" "Burnished Foil" "Ezomyte Staff" "Lacquered Garb" "Topaz Ring" "Elegant Ringmail" "Conquest Chainmail" "Karui Sceptre" "Crypt Armour" "Crusader Plate" "Dragonscale Doublet" "Bronze Tower Shield" "Loricated Ringmail" "Cutthroat's Garb" "Blood Raiment" "Paua Amulet" "Steelscale Gauntlets" "Dragon Mace" "Destiny Leather" "Commander's Brigandine" "Grove Bow" "Embroidered Gloves" "Fiend Dagger" "Conjurer's Vestment" "Piledriver" "Demon's Horn" "Platinum Sceptre" "Lead Sceptre" "Bone Armour" "Glorious Leather" "Sun Plate" "Bronze Plate" "Imperial Skean" "Eye Gouger" "Sapphire Ring" "Full Dragonscale" "Majestic Plate" "Triumphant Lamellar" "Full Wyrmscale" "Golden Plate" "Serpentine Staff" "Destroyer Regalia" "Exquisite Leather" "Saintly Chainmail" "Occultist's Vestment" "Battle Lamellar" "Arcanist Gloves" "Pig-Faced Bascinet" "Carnal Armour" "Sleek Coat" "Sorcerer Boots" "Talon Axe" "Gladiator Plate" "Thorium Spirit Shield" "Solar Maul" "Riveted Boots" "Angelic Kite Shield" "Shagreen Gloves" "Jade Amulet" "Etched Kite Shield" "Steel Kite Shield" "Laminated Kite Shield" "Meatgrinder" "Amethyst Ring" "Titan Gauntlets" "Void Axe" "Vanguard Belt" "Steelhead" "Glorious Plate" "Archon Kite Shield" "Sage's Robe"
+	BaseType "Bone Helmet" "Convoking Wand" "Coral Amulet" "Crystal Wand" "Grappler" "Spidersilk Robe" "Hubris Circlet" "Demon's Horn" "Vaal Buckler" "Hunter Hood" "Laminated Kite Shield" "Lacquered Buckler" "Gutting Knife" "Thicket Bow" "Carnal Armour" "Amber Amulet" "Profane Wand" "Vaal Regalia" "Battle Hammer" "Steel Circlet" "Turquoise Amulet" "Sharkskin Tunic" "General's Brigandine" "Coronal Leather" "Silken Wrap" "Savant's Robe" "Ezomyte Staff" "Magistrate Crown" "Spike-Point Arrow Quiver" "Colosseum Plate" "Zealot Boots" "Void Axe" "Hydrascale Gauntlets" "Sentinel Jacket" "Leather Belt" "Legion Sword" "Astral Plate" "Widowsilk Robe" "Arcanist Slippers" "Sorcerer Gloves" "Titan Greaves" "Diamond Ring" "Zodiac Leather" "Assassin's Garb" "Necromancer Silks" "Eelskin Boots" "Sadist Garb" "Varnished Coat" "Agate Amulet" "Gold Amulet" "Coronal Maul" "Coral Ring" "Desert Brigandine" "Titan Gauntlets" "Blood Raiment" "Stag Sceptre" "Ruby Ring" "Imperial Buckler" "Cabalist Regalia" "Hellion's Paw" "Burnished Foil" "Samite Helmet" "Lacquered Garb" "Topaz Ring" "Elegant Ringmail" "Conquest Chainmail" "Karui Sceptre" "Crypt Armour" "Crusader Plate" "Dragonscale Doublet" "Bronze Tower Shield" "Loricated Ringmail" "Cutthroat's Garb" "Opal Sceptre" "Paua Amulet" "Steelscale Gauntlets" "Serpentine Staff" "Destiny Leather" "Commander's Brigandine" "Grove Bow" "Embroidered Gloves" "Riveted Gloves" "Platinum Kris" "Mirrored Spiked Shield" "Piledriver" "Conjurer's Vestment" "Sniper Bow" "Platinum Sceptre" "Thorium Spirit Shield" "Ezomyte Axe" "Glorious Leather" "Sun Plate" "Bronze Plate" "Imperial Skean" "Eye Gouger" "Sapphire Ring" "Full Dragonscale" "Majestic Plate" "Triumphant Lamellar" "Full Wyrmscale" "Golden Plate" "Soldier Gloves" "Destroyer Regalia" "Exquisite Leather" "Saintly Chainmail" "Battle Lamellar" "Etched Kite Shield" "Pig-Faced Bascinet" "Sleek Coat" "Jade Amulet" "Hussar Brigandine" "Crimson Round Shield" "Gladiator Plate" "Engraved Hatchet" "Fiend Dagger" "Steelhead" "Omen Wand" "Void Sceptre" "Amethyst Ring" "Imperial Maul" "Glorious Plate" "Sage's Robe" "Occultist's Vestment" "Archon Kite Shield"
 	SetFontSize 45
 	SetTextColor 255 255 255 255            # TEXTCOLOR:	 Cosmetic White
 	SetBorderColor 255 255 255 255          # BORDERCOLOR:	 T1 highlight
@@ -394,7 +394,7 @@ Show # $tier->t1-1 $type->rare->hunter
 	HasInfluence Hunter
 	ItemLevel >= 82
 	Rarity <= Rare
-	BaseType "Fingerless Silk Gloves" "Goliath Gauntlets" "Opal Ring" "Gripped Gloves" "Titanium Spirit Shield" "Marble Amulet" "Arcanist Slippers" "Vermillion Ring" "Coral Amulet" "Spiked Gloves" "Titan Greaves" "Jade Amulet" "Sorcerer Gloves" "Amber Amulet" "Stealth Gloves" "Ambusher" "Slink Boots" "Vaal Greaves" "Titan Gauntlets" "Gemini Claw" "Sharkskin Gloves" "Arcanist Gloves" "Two-Toned Boots"
+	BaseType "Arcanist Gloves" "Fingerless Silk Gloves" "Opal Ring" "Blue Pearl Amulet" "Titanium Spirit Shield" "Marble Amulet" "Spike-Point Arrow Quiver" "Vermillion Ring" "Coral Amulet" "Spiked Gloves" "Jade Amulet" "Sorcerer Gloves" "Ambusher" "Slink Boots" "Sharkskin Gloves" "Titan Gauntlets" "Gemini Claw" "Dragonscale Boots" "Goliath Gauntlets" "Citrine Amulet" "Two-Toned Boots"
 	SetFontSize 45
 	SetTextColor 123 50 165 255             # TEXTCOLOR:	 ShaperElder
 	SetBorderColor 128 50 165 255           # BORDERCOLOR:	 Shaper T1
@@ -407,7 +407,7 @@ Show # $tier->t1-2 $type->rare->hunter
 	HasInfluence Hunter
 	ItemLevel >= 84
 	Rarity <= Rare
-	BaseType "Astral Plate" "Broadhead Arrow Quiver" "Hubris Circlet" "Heavy Belt" "Agate Amulet" "Citrine Amulet" "Ezomyte Tower Shield" "Vaal Regalia" "Blue Pearl Amulet" "Onyx Amulet" "Gold Amulet" "Lapis Amulet" "Stealth Boots" "Dragonscale Boots" "Crystal Belt"
+	BaseType "Astral Plate" "Stealth Gloves" "Hubris Circlet" "Heavy Belt" "Opal Wand" "Imperial Claw" "Ezomyte Tower Shield" "Vaal Regalia" "Paua Amulet" "Onyx Amulet" "Agate Amulet" "Pagan Wand" "Lapis Amulet" "Stealth Boots" "Vaal Greaves" "Titan Greaves" "Crystal Belt"
 	SetFontSize 45
 	SetTextColor 123 50 165 255             # TEXTCOLOR:	 ShaperElder
 	SetBorderColor 128 50 165 255           # BORDERCOLOR:	 Shaper T1
@@ -420,7 +420,7 @@ Show # $tier->t1-3 $type->rare->hunter
 	HasInfluence Hunter
 	ItemLevel >= 85
 	Rarity <= Rare
-	BaseType "Imperial Skean" "Hydrascale Gauntlets" "Coral Ring" "Royal Sceptre" "Vaal Mask" "Spike-Point Arrow Quiver" "Opal Wand" "Sapphire Ring" "Slaughter Knife" "Shagreen Boots" "Unset Ring" "Rustic Sash" "Carnal Boots" "Harpy Rapier" "Wyrmscale Gauntlets" "Stygian Vise" "Topaz Ring"
+	BaseType "Tempered Foil" "Imperial Skean" "Coral Ring" "Leather Belt" "Carnal Boots" "Siege Axe" "Sapphire Ring" "Topaz Ring" "Unset Ring" "Rustic Sash" "Stygian Vise" "Harpy Rapier"
 	SetFontSize 45
 	SetTextColor 123 50 165 255             # TEXTCOLOR:	 ShaperElder
 	SetBorderColor 128 50 165 255           # BORDERCOLOR:	 Shaper T1
@@ -437,7 +437,7 @@ Show # $tier->t2-1 $type->rare->hunter
 	HasInfluence Hunter
 	ItemLevel >= 80
 	Rarity <= Rare
-	BaseType "Blue Pearl Amulet" "Zealot Boots" "Jewelled Foil" "Citadel Bow" "Spike-Point Arrow Quiver" "Amber Amulet" "Opal Ring" "Serrated Arrow Quiver" "Moon Staff" "Broadhead Arrow Quiver" "Serpentscale Gauntlets" "Vermillion Ring" "Coral Amulet" "Two-Toned Boots" "Archon Kite Shield" "Citrine Amulet" "Sharkskin Gloves" "Cerulean Ring" "Hubris Circlet" "Sharkskin Boots" "Penetrating Arrow Quiver" "Heavy Belt" "Twin Claw" "Stealth Gloves" "Reinforced Greaves" "Stygian Vise" "Astral Plate" "Hydrascale Boots" "Gripped Gloves" "Fingerless Silk Gloves" "Crystal Belt" "Titanium Spirit Shield" "Marble Amulet" "Steel Ring" "Antique Greaves" "Vaal Regalia" "Heathen Wand" "Imperial Claw" "Mosaic Kite Shield" "Agate Amulet" "Varnished Coat" "Spiked Gloves" "Titan Greaves" "Zodiac Leather" "Jade Amulet" "Arcanist Slippers" "Sorcerer Gloves" "Sharktooth Arrow Quiver" "Onyx Amulet" "Slink Gloves" "Turquoise Amulet" "Ambusher" "Slink Boots" "Vaal Greaves" "Carnal Boots" "Shagreen Boots" "Gold Amulet" "Secutor Helm" "Murder Boots" "Titan Gauntlets" "Serpentscale Boots" "Steel Gauntlets" "Lion Pelt" "Arcanist Gloves" "Lapis Amulet" "Gemini Claw" "Brass Spirit Shield" "Eye Gouger" "Murder Mitts" "Goliath Gauntlets" "Dragonscale Boots" "Assassin's Boots" "Paua Amulet" "Pagan Wand" "Ebony Tower Shield" "Satin Gloves" "Nubuck Boots" "Goliath Greaves" "Elegant Round Shield" "Maraketh Bow" "Ambush Boots" "Scholar Boots" "Ancient Greaves" "Poignard" "Wyrmscale Boots" "Conjurer Boots" "Thorium Spirit Shield" "Lacquered Buckler" "Hydrascale Gauntlets" "Soldier Boots" "Blunt Arrow Quiver" "Leather Belt" "Wyrmscale Gauntlets" "Royal Axe" "Reflex Bow" "Legion Boots" "Harbinger Bow"
+	BaseType "Blue Pearl Amulet" "Zealot Boots" "Jewelled Foil" "Lion Pelt" "Spike-Point Arrow Quiver" "Amber Amulet" "Opal Ring" "Serrated Arrow Quiver" "Scholar Boots" "Broadhead Arrow Quiver" "Embroidered Gloves" "Vermillion Ring" "Coral Amulet" "Two-Toned Boots" "Lordly Plate" "Citrine Amulet" "Crusader Gloves" "Cerulean Ring" "Hubris Circlet" "Royal Axe" "Sharkskin Boots" "Penetrating Arrow Quiver" "Heavy Belt" "Twin Claw" "Stealth Gloves" "Reinforced Greaves" "Stygian Vise" "Astral Plate" "Hydrascale Boots" "Gripped Gloves" "Fingerless Silk Gloves" "Crystal Belt" "Titanium Spirit Shield" "Marble Amulet" "Steel Ring" "Antique Greaves" "Vaal Regalia" "Imperial Claw" "Imperial Skean" "Agate Amulet" "Engraved Wand" "Spiked Gloves" "Titan Greaves" "Shagreen Gloves" "Jade Amulet" "Arcanist Slippers" "Sorcerer Gloves" "Sharkskin Gloves" "Onyx Amulet" "Slink Gloves" "Turquoise Amulet" "Ambusher" "Slink Boots" "Vaal Greaves" "Carnal Boots" "Zodiac Leather" "Gold Amulet" "Harmonic Spirit Shield" "Murder Boots" "Titan Gauntlets" "Crusader Boots" "Soldier Gloves" "Steel Gauntlets" "Dragonscale Gauntlets" "Arcanist Gloves" "Lapis Amulet" "Gemini Claw" "Enameled Buckler" "Eye Gouger" "Murder Mitts" "Grinning Fetish" "Goliath Gauntlets" "Dragonscale Boots" "Assassin's Boots" "Paua Amulet" "Pagan Wand" "Shackled Boots" "Satin Gloves" "Nubuck Boots" "Goliath Greaves" "Serpentscale Boots" "Maraketh Bow" "Lacquered Buckler" "Mosaic Kite Shield" "Poignard" "Wyrmscale Boots" "Conjurer Boots" "Sleek Coat" "Mind Cage" "Thorium Spirit Shield" "Ezomyte Tower Shield" "Hunter Hood" "Reflex Bow" "Soldier Boots" "Leather Belt" "Spiny Round Shield" "Opal Sceptre" "Samite Slippers" "Legion Boots" "Harbinger Bow" "Mirrored Spiked Shield" "Secutor Helm"
 	SetFontSize 45
 	SetTextColor 255 255 255 255            # TEXTCOLOR:	 Cosmetic White
 	SetBorderColor 255 255 255 255          # BORDERCOLOR:	 T1 highlight
@@ -450,7 +450,7 @@ Show # $tier->t2-2 $type->rare->hunter
 	HasInfluence Hunter
 	ItemLevel >= 85
 	Rarity <= Rare
-	BaseType "Quilted Jacket" "Angelic Kite Shield" "Coral Ring" "Crystal Wand" "Ancient Spirit Shield" "Elegant Foil" "Void Sceptre" "Chiming Spirit Shield" "Imbued Wand" "Battle Hammer" "Rustic Sash" "Golden Mask" "Maelström Staff" "Vaal Mask" "Profane Wand" "Siege Axe" "Sage Wand" "Soldier Gloves" "Two-Stone Ring" "Thicket Bow" "Tornado Wand" "Etched Kite Shield" "Cloth Belt" "Nubuck Gloves" "Gut Ripper" "Vanguard Belt" "Royal Sceptre" "Supreme Spiked Shield" "Infernal Axe" "Deicide Mask" "Harpy Rapier" "Noble Claw" "Dragonscale Gauntlets" "Samite Slippers" "Sadist Garb" "Widowsilk Robe" "Assassin Bow" "Fossilised Spirit Shield" "Ritual Sceptre" "Unset Ring" "Assassin's Garb" "Crusader Boots" "Royal Burgonet" "Golden Plate" "Slaughter Knife" "Cabalist Regalia" "Lithe Blade" "Mahogany Tower Shield" "Steelscale Gauntlets" "Solar Maul" "Imperial Skean" "Lunaris Circlet" "Ruby Ring" "Occultist's Vestment" "Sapphire Ring" "Imperial Buckler" "Trapper Mitts" "Ezomyte Staff" "Spiked Round Shield" "Imperial Bow" "Steelscale Boots" "Ancient Gauntlets" "Engraved Wand" "Laminated Kite Shield" "Ezomyte Tower Shield" "Assassin's Mitts" "Embroidered Gloves" "Glorious Plate" "Prophecy Wand" "Zealot Gloves" "Vaal Buckler" "Bronzescale Gauntlets" "Legion Hammer" "Royal Skean" "Carnal Mitts" "Conjurer Gloves" "Harmonic Spirit Shield" "Legion Gloves" "Eclipse Staff" "Crested Tower Shield" "Serpent Wand" "Steelwood Bow" "Magistrate Crown" "Sovereign Spiked Shield" "Sinner Tricorne" "Sundering Axe" "Demon Dagger" "Opal Wand" "Mirrored Spiked Shield" "Pinnacle Tower Shield" "Thief's Garb" "Ezomyte Blade" "Full Dragonscale" "Eelskin Gloves" "Topaz Ring" "Crusader Buckler" "Eelskin Boots" "Ezomyte Burgonet" "Saint's Hauberk" "Burnished Foil" "Exquisite Leather" "Saintly Chainmail" "Estoc" "Prophet Crown" "Wyrmscale Doublet" "Nightmare Mace" "Samite Gloves" "Shagreen Gloves" "Bone Helmet" "Legion Sword" "Enameled Buckler" "Wolf Pelt" "Colossal Tower Shield" "Tomahawk" "War Axe" "Petrified Club" "Crusader Helmet" "Stealth Boots" "Crusader Gloves" "Battle Buckler"
+	BaseType "Moon Staff" "Hydrascale Gauntlets" "Coral Ring" "Crystal Wand" "Ancient Spirit Shield" "Colossal Tower Shield" "Headman's Sword" "Chiming Spirit Shield" "Imbued Wand" "Battle Hammer" "Rustic Sash" "Burnished Foil" "Maelström Staff" "Profane Wand" "Siege Axe" "Serpentscale Gauntlets" "Trisula" "Two-Stone Ring" "Thicket Bow" "Tornado Wand" "Corsair Sword" "Etched Kite Shield" "Cloth Belt" "Nubuck Gloves" "Gut Ripper" "Vanguard Belt" "Royal Sceptre" "Supreme Spiked Shield" "Eelskin Boots" "Deicide Mask" "Harpy Rapier" "Noble Claw" "Lunaris Circlet" "Bone Helmet" "Exquisite Leather" "Widowsilk Robe" "Assassin's Mitts" "Assassin Bow" "Fossilised Spirit Shield" "Ritual Sceptre" "Unset Ring" "Assassin's Garb" "Boot Blade" "Royal Burgonet" "Thief's Garb" "Slaughter Knife" "Cabalist Regalia" "Lithe Blade" "Mahogany Tower Shield" "Steelscale Gauntlets" "Angelic Kite Shield" "Tempered Foil" "Ruby Ring" "Occultist's Vestment" "Sapphire Ring" "Void Sceptre" "Ezomyte Staff" "Mesh Gloves" "Imperial Bow" "Steelscale Boots" "Ancient Gauntlets" "Citadel Bow" "War Axe" "Bronze Tower Shield" "Glorious Plate" "Prophecy Wand" "Stealth Boots" "Bronzescale Gauntlets" "Royal Skean" "Archon Kite Shield" "Carnal Mitts" "Conjurer Gloves" "Regicide Mask" "Legion Gloves" "Legion Sword" "Plated Maul" "Serpent Wand" "Imperial Staff" "Golden Plate" "Pernarch" "Sinner Tricorne" "Opal Wand" "Ornate Spiked Shield" "Pinnacle Tower Shield" "Tiger's Paw" "Ezomyte Blade" "Sadist Garb" "Eelskin Gloves" "Crusader Buckler" "Steel Kite Shield" "Royal Bow" "Saint's Hauberk" "Topaz Ring" "Trapper Mitts" "Steelwood Bow" "Sundering Axe" "Prophet Crown" "Wyrmscale Doublet" "Golden Mask" "Nightmare Mace" "Samite Gloves" "Shagreen Boots" "Infernal Axe" "Spiked Round Shield"
 	SetFontSize 45
 	SetTextColor 255 255 255 255            # TEXTCOLOR:	 Cosmetic White
 	SetBorderColor 255 255 255 255          # BORDERCOLOR:	 T1 highlight
@@ -471,7 +471,7 @@ Show # $tier->t1-1 $type->rare->warlord
 	HasInfluence Warlord
 	ItemLevel >= 82
 	Rarity <= Rare
-	BaseType "Jewelled Foil" "Gripped Gloves" "Vermillion Ring" "Steel Ring" "Prismatic Ring" "Opal Ring" "Amber Amulet" "Arcanist Gloves" "Stygian Vise" "Spiked Gloves"
+	BaseType "Jewelled Foil" "Gripped Gloves" "Two-Toned Boots" "Steel Ring" "Opal Wand" "Opal Ring" "Amber Amulet" "Vermillion Ring" "Stygian Vise" "Spiked Gloves" "Prismatic Ring" "Marble Amulet"
 	SetFontSize 45
 	SetTextColor 123 50 165 255             # TEXTCOLOR:	 ShaperElder
 	SetBorderColor 128 50 165 255           # BORDERCOLOR:	 Shaper T1
@@ -484,7 +484,7 @@ Show # $tier->t1-2 $type->rare->warlord
 	HasInfluence Warlord
 	ItemLevel >= 84
 	Rarity <= Rare
-	BaseType "Hubris Circlet" "Crusader Buckler" "Sorcerer Gloves" "Lion Pelt" "Royal Burgonet"
+	BaseType "Hubris Circlet" "Shadow Sceptre" "Crusader Buckler" "Sorcerer Gloves" "Lion Pelt" "Royal Burgonet"
 	SetFontSize 45
 	SetTextColor 123 50 165 255             # TEXTCOLOR:	 ShaperElder
 	SetBorderColor 128 50 165 255           # BORDERCOLOR:	 Shaper T1
@@ -497,7 +497,7 @@ Show # $tier->t1-3 $type->rare->warlord
 	HasInfluence Warlord
 	ItemLevel >= 85
 	Rarity <= Rare
-	BaseType "Tenderizer" "Unset Ring" "Deicide Mask" "Broadhead Arrow Quiver" "Gladiator Plate" "Coral Amulet" "Siege Axe" "Sharkskin Boots" "Jade Amulet" "Onyx Amulet" "Chain Belt" "Spike-Point Arrow Quiver" "Assassin's Mitts" "Two-Stone Ring" "Shagreen Gloves" "Titan Greaves" "Fossilised Spirit Shield" "Agate Amulet" "Two-Toned Boots" "Assassin Bow" "Slink Gloves" "Necromancer Silks" "Infernal Axe"
+	BaseType "Unset Ring" "Deicide Mask" "Broadhead Arrow Quiver" "Gladiator Plate" "Spine Bow" "Gold Ring" "Harpy Rapier" "Siege Axe" "Assassin Bow" "Jade Amulet" "Onyx Amulet" "Chain Belt" "Spike-Point Arrow Quiver" "Assassin's Mitts" "Titan Greaves" "Two-Stone Ring" "Coral Amulet" "Sharkskin Boots" "Fossilised Spirit Shield" "Slink Gloves" "Necromancer Silks" "Infernal Axe" "Agate Amulet"
 	SetFontSize 45
 	SetTextColor 123 50 165 255             # TEXTCOLOR:	 ShaperElder
 	SetBorderColor 128 50 165 255           # BORDERCOLOR:	 Shaper T1
@@ -514,7 +514,7 @@ Show # $tier->t2-1 $type->rare->warlord
 	HasInfluence Warlord
 	ItemLevel >= 80
 	Rarity <= Rare
-	BaseType "Blue Pearl Amulet" "Spiked Gloves" "Slink Gloves" "Jewelled Foil" "Eclipse Staff" "Paua Amulet" "Amber Amulet" "Opal Ring" "Spiraled Foil" "Sage Wand" "Arcanist Gloves" "Vermillion Ring" "Two-Stone Ring" "Two-Toned Boots" "Murder Mitts" "Opal Wand" "Pinnacle Tower Shield" "Hubris Circlet" "Platinum Sceptre" "Exquisite Blade" "Lapis Amulet" "Crusader Buckler" "Titan Gauntlets" "Stygian Vise" "Jade Amulet" "Titanium Spirit Shield" "Gripped Gloves" "Fingerless Silk Gloves" "Crystal Belt" "Sorcerer Gloves" "Marble Amulet" "Steel Ring" "Ambusher" "Lion Pelt" "Imperial Claw" "Royal Burgonet" "Heathen Wand" "Agate Amulet" "Citrine Amulet" "Onyx Amulet" "Turquoise Amulet" "Mahogany Tower Shield" "Ezomyte Burgonet" "Cerulean Ring" "Serrated Arrow Quiver" "Mind Cage" "Sorcerer Boots" "Coral Ring" "Spine Bow" "Eternal Burgonet" "Mosaic Kite Shield" "Ceremonial Kite Shield" "Diamond Ring" "Prismatic Ring" "Sambar Sceptre" "Sharkskin Boots" "Laminated Kite Shield" "Coronal Maul" "Stag Sceptre" "Satin Slippers" "Dragonscale Gauntlets" "Crusader Gloves" "Lion Sword"
+	BaseType "Blue Pearl Amulet" "Spiked Gloves" "Sage Wand" "Jewelled Foil" "Legion Sword" "Coronal Maul" "Amber Amulet" "Opal Ring" "Spiraled Foil" "Eternal Burgonet" "Arcanist Gloves" "Vermillion Ring" "Two-Stone Ring" "Two-Toned Boots" "Murder Mitts" "Opal Wand" "Pinnacle Tower Shield" "Hubris Circlet" "Carnal Sceptre" "Platinum Sceptre" "Lapis Amulet" "Fossilised Spirit Shield" "Titan Gauntlets" "Stygian Vise" "Jade Amulet" "Titanium Spirit Shield" "Gripped Gloves" "Fingerless Silk Gloves" "Crystal Belt" "Sorcerer Gloves" "Marble Amulet" "Steel Ring" "Meatgrinder" "Lion Pelt" "Imperial Claw" "Paua Amulet" "Heathen Wand" "Agate Amulet" "Citrine Amulet" "Onyx Amulet" "Turquoise Amulet" "Sambar Sceptre" "Ezomyte Burgonet" "Cerulean Ring" "Platinum Kris" "Prismatic Ring" "Coral Ring" "Crystal Wand" "Mosaic Kite Shield" "Ceremonial Kite Shield" "Sharkskin Boots" "Sorcerer Boots" "Slink Gloves" "Ambusher" "Lithe Blade" "Serrated Arrow Quiver" "Exquisite Blade" "Lion Sword" "Sekhem" "Satin Slippers"
 	SetFontSize 45
 	SetTextColor 255 255 255 255            # TEXTCOLOR:	 Cosmetic White
 	SetBorderColor 255 255 255 255          # BORDERCOLOR:	 T1 highlight
@@ -527,7 +527,7 @@ Show # $tier->t2-2 $type->rare->warlord
 	HasInfluence Warlord
 	ItemLevel >= 85
 	Rarity <= Rare
-	BaseType "Crystal Sceptre" "Opal Sceptre" "Bronzescale Boots" "Runic Hatchet" "Necromancer Silks" "Gladius" "Ruby Ring" "Tiger's Paw" "Imperial Skean" "Reinforced Greaves" "Vaal Mask" "Nubuck Gloves" "Gladiator Plate" "Grinning Fetish" "Mesh Gloves" "Vaal Axe" "Vaal Regalia" "Void Sceptre" "Dragon Mace" "Assassin's Mitts" "Infernal Axe" "Corrugated Buckler" "Gemini Claw" "Savant's Robe" "Vaal Spirit Shield" "Titan Greaves" "Great White Claw" "Coral Amulet" "Maraketh Bow" "Archon Kite Shield" "Astral Plate" "Bone Helmet" "Colosseum Plate" "Ezomyte Tower Shield" "Ezomyte Spiked Shield" "Silken Wrap" "Compound Spiked Shield" "Unset Ring" "Lacewood Spirit Shield" "Harpy Rapier" "Twin Claw" "Riveted Gloves" "Aventail Helmet" "Gold Amulet" "Spike-Point Arrow Quiver" "Bone Circlet" "Golden Buckler" "Solar Maul" "Chain Belt" "Amethyst Ring" "Broadhead Arrow Quiver" "Courtesan Sword" "Tenderizer" "Mirrored Spiked Shield" "Saintly Chainmail" "Silken Hood" "Sundering Axe" "Stealth Gloves" "Secutor Helm" "Conjurer Gloves" "Goliath Gauntlets" "Ancient Gauntlets" "Ivory Spirit Shield" "Gut Ripper" "Topaz Ring" "Pecoraro" "Gladiator Helmet" "Trisula" "Tomahawk" "Vaal Rapier" "Praetor Crown" "Shadow Sceptre" "Eternal Sword" "Frontier Leather" "Sinner Tricorne" "Siege Axe" "Pernarch" "Nightmare Bascinet" "Fleshripper" "Hydrascale Boots" "Shagreen Gloves" "Deicide Mask" "Vaal Gauntlets" "Eye Gouger" "Steel Gauntlets" "Fossilised Spirit Shield" "Shagreen Boots" "Assassin Bow" "Sai" "Eelskin Tunic" "Vanguard Belt" "Full Dragonscale"
+	BaseType "Vaal Sceptre" "Shagreen Boots" "Opal Sceptre" "Bronzescale Boots" "Runic Hatchet" "Bone Circlet" "Spine Bow" "Ruby Ring" "Infernal Axe" "Nubuck Gloves" "Deicide Mask" "Antique Gauntlets" "Vaal Mask" "Eclipse Staff" "Gladiator Plate" "Grinning Fetish" "Gold Ring" "Vanguard Belt" "Ranger Bow" "Vaal Axe" "Courtesan Sword" "Void Sceptre" "Crusader Chainmail" "Assassin's Mitts" "Wyrmscale Gauntlets" "Ceremonial Axe" "Gemini Claw" "Savant's Robe" "Vaal Spirit Shield" "Titan Greaves" "Saintly Chainmail" "Coral Amulet" "Maraketh Bow" "Archon Kite Shield" "Astral Plate" "Bone Helmet" "Soldier Boots" "Ezomyte Tower Shield" "Ezomyte Spiked Shield" "Imperial Bow" "Steelscale Gauntlets" "Unset Ring" "Lacewood Spirit Shield" "Harpy Rapier" "Twin Claw" "Riveted Gloves" "Corrugated Buckler" "Gold Amulet" "Spike-Point Arrow Quiver" "Harmonic Spirit Shield" "Golden Buckler" "Solar Maul" "Chain Belt" "Amethyst Ring" "Broadhead Arrow Quiver" "Reinforced Greaves" "Tenderizer" "Mirrored Spiked Shield" "Gladius" "Silken Hood" "Battle Buckler" "Mesh Gloves" "Thorium Spirit Shield" "Polished Spiked Shield" "Aventail Helmet" "Trisula" "Topaz Ring" "Ancient Gauntlets" "Ivory Spirit Shield" "Glorious Plate" "Silken Wrap" "Dragonscale Gauntlets" "Frontier Leather" "Grove Bow" "Tomahawk" "Vaal Rapier" "Praetor Crown" "Brass Spirit Shield" "Shadow Sceptre" "Eternal Sword" "Compound Spiked Shield" "Sinner Tricorne" "Secutor Helm" "Pernarch" "Nightmare Bascinet" "Fleshripper" "Timber Axe" "Shagreen Gloves" "Necromancer Silks" "Vaal Gauntlets" "Behemoth Mace" "Steel Gauntlets" "Siege Axe" "Hydrascale Boots" "Crystal Sceptre" "Assassin Bow" "Slink Boots" "Diamond Ring" "Eelskin Tunic" "Royal Burgonet" "Tornado Wand" "Sundering Axe"
 	SetFontSize 45
 	SetTextColor 255 255 255 255            # TEXTCOLOR:	 Cosmetic White
 	SetBorderColor 255 255 255 255          # BORDERCOLOR:	 T1 highlight
@@ -548,7 +548,7 @@ Show # $tier->t1-1 $type->rare->redeemer
 	HasInfluence Redeemer
 	ItemLevel >= 82
 	Rarity <= Rare
-	BaseType "Crystal Belt" "Fingerless Silk Gloves" "Opal Ring" "Onyx Amulet" "Titanium Spirit Shield" "Steel Ring" "Opal Wand" "Two-Toned Boots" "Cerulean Ring" "Prismatic Ring"
+	BaseType "Crystal Belt" "Onyx Amulet" "Titanium Spirit Shield" "Marble Amulet" "Steel Ring" "Opal Wand" "Two-Toned Boots" "Cerulean Ring" "Prismatic Ring"
 	SetFontSize 45
 	SetTextColor 123 50 165 255             # TEXTCOLOR:	 ShaperElder
 	SetBorderColor 128 50 165 255           # BORDERCOLOR:	 Shaper T1
@@ -561,7 +561,7 @@ Show # $tier->t1-2 $type->rare->redeemer
 	HasInfluence Redeemer
 	ItemLevel >= 84
 	Rarity <= Rare
-	BaseType "Sorcerer Boots" "Harmonic Spirit Shield" "Champion Kite Shield" "Gripped Gloves" "Hubris Circlet" "Unset Ring" "Slink Boots" "Vermillion Ring"
+	BaseType "Sorcerer Boots" "Shadow Sceptre" "Harmonic Spirit Shield" "Champion Kite Shield" "Gripped Gloves" "Fingerless Silk Gloves" "Unset Ring" "Slink Boots"
 	SetFontSize 45
 	SetTextColor 123 50 165 255             # TEXTCOLOR:	 ShaperElder
 	SetBorderColor 128 50 165 255           # BORDERCOLOR:	 Shaper T1
@@ -574,7 +574,7 @@ Show # $tier->t1-3 $type->rare->redeemer
 	HasInfluence Redeemer
 	ItemLevel >= 85
 	Rarity <= Rare
-	BaseType "Sambar Sceptre" "Turquoise Amulet" "Void Sceptre" "Vaal Regalia" "Imbued Wand" "Amber Amulet" "General's Brigandine" "Ancient Gauntlets" "Citadel Bow" "Sapphire Ring" "Vaal Rapier" "Imperial Skean" "Crystal Sceptre" "Stag Sceptre" "Citrine Amulet" "Diamond Ring" "Two-Stone Ring" "Titan Greaves"
+	BaseType "Sambar Sceptre" "Turquoise Amulet" "Void Sceptre" "Vaal Regalia" "Diamond Ring" "Imbued Wand" "Amber Amulet" "General's Brigandine" "Citadel Bow" "Sapphire Ring" "Gladiator Plate" "Jade Amulet" "Crystal Sceptre" "Citrine Amulet" "Titan Greaves" "Two-Stone Ring" "Imperial Claw"
 	SetFontSize 45
 	SetTextColor 123 50 165 255             # TEXTCOLOR:	 ShaperElder
 	SetBorderColor 128 50 165 255           # BORDERCOLOR:	 Shaper T1
@@ -591,7 +591,7 @@ Show # $tier->t2-1 $type->rare->redeemer
 	HasInfluence Redeemer
 	ItemLevel >= 80
 	Rarity <= Rare
-	BaseType "Blue Pearl Amulet" "Blood Sceptre" "Crusader Boots" "Opal Ring" "Assassin Bow" "Opal Sceptre" "Vermillion Ring" "Convoking Wand" "Two-Toned Boots" "Tornado Wand" "Opal Wand" "Eye Gouger" "Lacquered Buckler" "Holy Chainmail" "Stygian Vise" "Astral Plate" "Prismatic Ring" "Fingerless Silk Gloves" "Crystal Belt" "Titanium Spirit Shield" "Marble Amulet" "Steel Ring" "Mosaic Kite Shield" "Ezomyte Spiked Shield" "Royal Burgonet" "Sage Wand" "Gripped Gloves" "Citrine Amulet" "Spiked Gloves" "Sorcerer Boots" "Jade Amulet" "Crusader Buckler" "Sorcerer Gloves" "Onyx Amulet" "Unset Ring" "Turquoise Amulet" "Bone Helmet" "Slink Boots" "Cerulean Ring" "Vaal Spirit Shield" "Titan Greaves" "Arcanist Slippers" "Fossilised Spirit Shield"
+	BaseType "Blue Pearl Amulet" "Exquisite Blade" "Blood Sceptre" "Etched Kite Shield" "Opal Ring" "Assassin Bow" "Crusader Boots" "Opal Sceptre" "Vermillion Ring" "Angelic Kite Shield" "Two-Toned Boots" "Tornado Wand" "Opal Wand" "Gut Ripper" "Lacquered Buckler" "Hellion's Paw" "Holy Chainmail" "Stygian Vise" "Astral Plate" "Prismatic Ring" "Ebony Tower Shield" "Fingerless Silk Gloves" "Crystal Belt" "Titanium Spirit Shield" "Marble Amulet" "Steel Ring" "Mosaic Kite Shield" "Omen Wand" "Royal Burgonet" "Sage Wand" "Citrine Amulet" "Spiked Gloves" "Sorcerer Boots" "Jade Amulet" "Exquisite Leather" "Sorcerer Gloves" "Onyx Amulet" "Unset Ring" "Vanguard Belt" "Slink Boots" "Cerulean Ring" "Sekhem" "Titan Greaves"
 	SetFontSize 45
 	SetTextColor 255 255 255 255            # TEXTCOLOR:	 Cosmetic White
 	SetBorderColor 255 255 255 255          # BORDERCOLOR:	 T1 highlight
@@ -604,7 +604,7 @@ Show # $tier->t2-2 $type->rare->redeemer
 	HasInfluence Redeemer
 	ItemLevel >= 85
 	Rarity <= Rare
-	BaseType "Hubris Circlet" "Platinum Sceptre" "Crystal Wand" "Assassin's Garb" "Jewelled Foil" "Sapphire Ring" "Ebony Tower Shield" "Imbued Wand" "Imperial Claw" "Vaal Gauntlets" "Lion Pelt" "Loricated Ringmail" "Two-Stone Ring" "Platinum Kris" "Profane Wand" "Harmonic Spirit Shield" "Compound Bow" "Diamond Ring" "Ambusher" "Champion Kite Shield" "Agate Amulet" "Battle Sword" "Vaal Regalia" "Void Sceptre" "Decurve Bow" "Citadel Bow" "Stag Sceptre" "Gemini Claw" "Vaal Sceptre" "Imperial Skean" "Imperial Buckler" "Coral Amulet" "Demon's Horn" "Scholar Boots" "Talon Axe" "General's Brigandine" "Ezomyte Tower Shield" "Battle Hammer" "Woodful Staff" "Spiraled Foil" "Zodiac Leather" "Amber Amulet" "Lunaris Circlet" "Twin Claw" "Reaver Axe" "Murder Boots" "Gold Amulet" "Shadow Sceptre" "Oak Buckler" "Vaal Greaves" "Cloth Belt" "Sambar Sceptre" "Ancestral Club" "Tomahawk" "Colossal Tower Shield" "Stealth Boots" "Eternal Burgonet" "Siege Axe" "Coronal Leather" "Assassin's Boots" "Sinner Tricorne" "Chiming Spirit Shield" "Engraved Wand" "Laminated Kite Shield" "Ancient Gauntlets" "Exquisite Leather" "Crusader Gloves" "Steel Gauntlets" "Ezomyte Burgonet" "Eelskin Boots" "Riveted Gloves" "Golden Mask" "Crimson Round Shield" "Tiger Sword" "Angelic Kite Shield" "Trisula" "Pinnacle Tower Shield" "Heathen Wand" "Gouger" "Faun's Horn" "Void Axe" "Cardinal Round Shield" "Ursine Pelt" "Hellion's Paw" "Estoc" "Crested Tower Shield" "Samite Slippers" "Poignard" "Eclipse Staff" "Etched Kite Shield" "Vaal Mask" "Crystal Sceptre" "Hunter Hood" "Studded Belt" "Soldier Boots" "Legion Sword" "Ochre Sceptre" "Steel Kite Shield" "Golden Kris" "Eelskin Tunic" "Chain Hauberk" "Slaughter Knife" "Titan Gauntlets" "Vaal Rapier" "Primordial Staff" "Sleek Coat" "Courtesan Sword" "Lapis Amulet" "Festival Mask" "Dragonscale Gauntlets" "Prophecy Wand"
+	BaseType "Hubris Circlet" "Convoking Wand" "Crystal Wand" "Assassin's Garb" "Jewelled Foil" "Sapphire Ring" "Imperial Buckler" "Imbued Wand" "Imperial Claw" "Vaal Gauntlets" "Lion Pelt" "Golden Kris" "Two-Stone Ring" "Platinum Kris" "Profane Wand" "Harmonic Spirit Shield" "Compound Bow" "Meatgrinder" "Ambusher" "Champion Kite Shield" "Fossilised Spirit Shield" "Platinum Sceptre" "Vaal Regalia" "Void Sceptre" "Heathen Wand" "Citadel Bow" "Stag Sceptre" "Talon Axe" "Fencer Helm" "Turquoise Amulet" "Satin Slippers" "Coral Amulet" "Demon's Horn" "Shadow Sceptre" "Vaal Spirit Shield" "General's Brigandine" "Ezomyte Tower Shield" "Woodful Staff" "Ezomyte Spiked Shield" "Spiraled Foil" "Zodiac Leather" "Amber Amulet" "Primordial Staff" "Reaver Axe" "Murder Boots" "Gold Amulet" "Chiming Spirit Shield" "Dragonscale Gauntlets" "Cloth Belt" "Sambar Sceptre" "Ancestral Club" "Tomahawk" "Colossal Tower Shield" "Stealth Boots" "Eternal Burgonet" "Gilded Sallet" "Ruby Ring" "Assassin's Boots" "Eelskin Tunic" "Engraved Wand" "Laminated Kite Shield" "Ancient Gauntlets" "Steel Kite Shield" "Crusader Gloves" "Crusader Buckler" "Ezomyte Burgonet" "Eelskin Boots" "Riveted Gloves" "Golden Mask" "Crimson Round Shield" "Tiger Sword" "Tyrant's Sekhem" "Trisula" "Pinnacle Tower Shield" "Lacewood Spirit Shield" "Gouger" "Void Axe" "Cardinal Round Shield" "Ursine Pelt" "Vaal Sceptre" "Crested Tower Shield" "Enameled Buckler" "Poignard" "Trapper Boots" "Goliath Gauntlets" "Spiny Round Shield" "Gripped Gloves" "Arcanist Slippers" "Hunter Hood" "Studded Belt" "Diamond Ring" "Bone Helmet" "Crystal Sceptre" "Battle Hammer" "Infernal Sword" "Bone Circlet" "Chain Hauberk" "Vaal Mask" "Titan Gauntlets" "Gladiator Plate" "Agate Amulet" "Vaal Rapier" "Scholar Boots" "Coronal Leather" "Twin Claw" "Lapis Amulet" "Festival Mask" "Vaal Greaves" "Prophecy Wand"
 	SetFontSize 45
 	SetTextColor 255 255 255 255            # TEXTCOLOR:	 Cosmetic White
 	SetBorderColor 255 255 255 255          # BORDERCOLOR:	 T1 highlight
@@ -625,7 +625,7 @@ Show # $tier->t1-1 $type->rare->shaper
 	HasInfluence Shaper
 	ItemLevel >= 82
 	Rarity <= Rare
-	BaseType "Crystal Belt" "Fingerless Silk Gloves" "Opal Ring" "Prismatic Ring" "Titanium Spirit Shield" "Marble Amulet" "Steel Ring" "Vermillion Ring" "Harmonic Spirit Shield"
+	BaseType "Crystal Belt" "Fingerless Silk Gloves" "Leather Belt" "Opal Ring" "Titanium Spirit Shield" "Marble Amulet" "Steel Ring" "Vermillion Ring" "Harmonic Spirit Shield"
 	SetFontSize 45
 	SetTextColor 123 50 165 255             # TEXTCOLOR:	 ShaperElder
 	SetBorderColor 128 50 165 255           # BORDERCOLOR:	 Shaper T1
@@ -651,7 +651,7 @@ Show # $tier->t1-3 $type->rare->shaper
 	HasInfluence Shaper
 	ItemLevel >= 86
 	Rarity <= Rare
-	BaseType "Pagan Wand" "Fossilised Spirit Shield" "Opal Wand" "Engraved Hatchet" "Sorcerer Boots" "Bone Helmet" "Vaal Regalia" "Exquisite Blade" "Prophecy Wand" "Colossal Tower Shield" "Imperial Bow" "Citrine Amulet" "Spiked Gloves" "Ezomyte Tower Shield" "Gripped Gloves" "Diamond Ring" "Thorium Spirit Shield" "Astral Plate" "Vaal Mask" "Vaal Spirit Shield" "Leather Belt" "Gavel"
+	BaseType "Vaal Spirit Shield" "Fossilised Spirit Shield" "Opal Wand" "Gavel" "Sorcerer Boots" "Bone Helmet" "Vaal Regalia" "Exquisite Blade" "Sage Wand" "Colossal Tower Shield" "Imperial Bow" "Citrine Amulet" "Spiked Gloves" "Vaal Mask" "Gripped Gloves" "Diamond Ring" "Thorium Spirit Shield" "Astral Plate"
 	SetFontSize 45
 	SetTextColor 123 50 165 255             # TEXTCOLOR:	 ShaperElder
 	SetBorderColor 128 50 165 255           # BORDERCOLOR:	 Shaper T1
@@ -668,7 +668,7 @@ Show # $tier->t2-1 $type->rare->shaper
 	HasInfluence Shaper
 	ItemLevel >= 80
 	Rarity <= Rare
-	BaseType "Grinning Fetish" "Cardinal Round Shield" "Lithe Blade" "Diamond Ring" "Eclipse Staff" "Spike-Point Arrow Quiver" "Serrated Arrow Quiver" "Leather Belt" "Opal Ring" "Gavel" "Vaal Buckler" "Prophecy Wand" "Painted Tower Shield" "Vermillion Ring" "Two-Stone Ring" "Two-Toned Boots" "Vaal Mask" "Opal Wand" "Champion Kite Shield" "Hubris Circlet" "Exquisite Blade" "Fossilised Spirit Shield" "Lacquered Buckler" "Colossal Tower Shield" "Engraved Hatchet" "Stygian Vise" "Archon Kite Shield" "Prismatic Ring" "Gripped Gloves" "Fingerless Silk Gloves" "Crystal Belt" "Titanium Spirit Shield" "Marble Amulet" "Steel Ring" "Ezomyte Tower Shield" "Thorium Spirit Shield" "Vaal Spirit Shield" "Quartz Wand" "Harmonic Spirit Shield" "Sage Wand" "Iron Sceptre" "Ochre Sceptre"
+	BaseType "Grinning Fetish" "Lithe Blade" "Diamond Ring" "Eclipse Staff" "Spike-Point Arrow Quiver" "Curved Blade" "Leather Belt" "Opal Ring" "Gavel" "Engraved Wand" "Dream Mace" "Reflex Bow" "Vermillion Ring" "Two-Stone Ring" "Two-Toned Boots" "Vaal Mask" "Opal Wand" "Prophecy Wand" "Hubris Circlet" "Exquisite Blade" "Lacewood Spirit Shield" "Fossilised Spirit Shield" "Colossal Tower Shield" "Trisula" "Stygian Vise" "Archon Kite Shield" "Painted Tower Shield" "Gripped Gloves" "Fingerless Silk Gloves" "Crystal Belt" "Titanium Spirit Shield" "Marble Amulet" "Steel Ring" "Ezomyte Tower Shield" "Thorium Spirit Shield" "Vaal Spirit Shield" "Quartz Wand" "Harmonic Spirit Shield" "Sage Wand" "Iron Sceptre" "Sorcerer Gloves" "Ochre Sceptre"
 	SetFontSize 45
 	SetTextColor 255 255 255 255            # TEXTCOLOR:	 Cosmetic White
 	SetBorderColor 255 255 255 255          # BORDERCOLOR:	 T1 highlight
@@ -681,7 +681,7 @@ Show # $tier->t2-2 $type->rare->shaper
 	HasInfluence Shaper
 	ItemLevel >= 85
 	Rarity <= Rare
-	BaseType "Bone Helmet" "Convoking Wand" "Sorcerer Boots" "Crystal Wand" "Golden Kris" "Leather Hood" "Jewelled Foil" "Harbinger Bow" "Heathen Wand" "Imbued Wand" "Imperial Claw" "Buckskin Tower Shield" "Lion Pelt" "Ritual Sceptre" "Sapphire Ring" "Platinum Kris" "Profane Wand" "Spiked Gloves" "Royal Burgonet" "Slink Boots" "Turquoise Amulet" "Highland Blade" "Thicket Bow" "Tornado Wand" "Vaal Regalia" "Baselard" "Void Sceptre" "Skean" "Gemini Claw" "Midnight Blade" "Gut Ripper" "Supreme Spiked Shield" "Crested Tower Shield" "Titan Greaves" "Mahogany Tower Shield" "Coral Amulet" "Maraketh Bow" "Highborn Bow" "Citrine Amulet" "Astral Plate" "Jade Amulet" "Unset Ring" "Sorcerer Gloves" "Onyx Amulet" "Cerulean Ring" "Mesh Boots" "Amber Amulet" "Silk Gloves" "Shagreen Tower Shield" "Glorious Plate" "Sadist Garb" "Piledriver" "Agate Amulet" "Gold Amulet" "Steelhead" "Coral Ring" "Walnut Spirit Shield" "Golden Buckler" "Gilded Buckler" "Ezomyte Spiked Shield" "Amethyst Ring" "Ruby Ring" "Imperial Buckler" "Crusader Helmet" "Mirrored Spiked Shield" "Moon Staff" "Silken Hood" "Topaz Ring" "Lapis Amulet" "Imperial Bow" "Moonstone Ring" "Talon Axe" "Laminated Kite Shield" "Great Mallet" "Ivory Spirit Shield" "Horned Sceptre" "Opal Sceptre" "Paua Amulet" "Pagan Wand" "Crusader Boots" "Silk Robe" "Shadow Sceptre" "Throat Stabber" "Angelic Kite Shield" "Spiked Round Shield" "Trisula" "Pinnacle Tower Shield" "Assassin Bow" "Sekhem" "Engraved Greatsword" "Faun's Horn" "Eye Gouger" "Engraved Wand" "Steelwood Bow" "Lacewood Spirit Shield" "Shackled Boots" "Death Bow" "Ezomyte Staff" "Clasped Mitts" "Blue Pearl Amulet" "Sambar Sceptre" "Crusader Buckler" "Elegant Ringmail"
+	BaseType "Bone Helmet" "Convoking Wand" "Sorcerer Boots" "Crystal Wand" "Golden Kris" "Jewelled Foil" "Harbinger Bow" "Heathen Wand" "Spiked Round Shield" "Imbued Wand" "Imperial Claw" "Buckskin Tower Shield" "Lion Pelt" "Silk Robe" "Sapphire Ring" "Platinum Kris" "Profane Wand" "Spiked Gloves" "Slink Boots" "Turquoise Amulet" "Thicket Bow" "Tornado Wand" "Vaal Regalia" "Ritual Sceptre" "Void Sceptre" "Crusader Buckler" "Gemini Claw" "Midnight Blade" "Great Mallet" "Supreme Spiked Shield" "Karui Sceptre" "Titan Greaves" "Mahogany Tower Shield" "Coral Amulet" "Highborn Bow" "Citrine Amulet" "Astral Plate" "Jade Amulet" "Unset Ring" "Blue Pearl Amulet" "Onyx Amulet" "Cerulean Ring" "Sniper Bow" "Amber Amulet" "Silk Gloves" "Cardinal Round Shield" "Spine Bow" "Sadist Garb" "Piledriver" "Agate Amulet" "Gold Amulet" "Spectral Sword" "Coral Ring" "Full Plate" "Golden Buckler" "Crested Tower Shield" "Walnut Spirit Shield" "Amethyst Ring" "Ruby Ring" "Imperial Buckler" "Mirrored Spiked Shield" "Moon Staff" "Grove Bow" "Silken Hood" "Topaz Ring" "Lapis Amulet" "Imperial Bow" "Elegant Ringmail" "Talon Axe" "Laminated Kite Shield" "Bronze Tower Shield" "Ivory Spirit Shield" "Horned Sceptre" "Opal Sceptre" "Paua Amulet" "Pagan Wand" "Shagreen Tower Shield" "Engraved Hatchet" "Angelic Kite Shield" "Clasped Mitts" "Pinnacle Tower Shield" "Assassin Bow" "Sekhem" "Faun's Horn" "Eye Gouger" "Battle Buckler" "Steelwood Bow" "Crusader Boots" "Engraved Greatsword" "Sparkling Claw" "Ancient Spirit Shield" "Ebony Tower Shield" "Sambar Sceptre" "Ezomyte Spiked Shield"
 	SetFontSize 45
 	SetTextColor 255 255 255 255            # TEXTCOLOR:	 Cosmetic White
 	SetBorderColor 255 255 255 255          # BORDERCOLOR:	 T1 highlight
@@ -702,7 +702,7 @@ Show # $tier->t1-1 $type->rare->elder
 	HasInfluence Elder
 	ItemLevel >= 82
 	Rarity <= Rare
-	BaseType "Bone Helmet" "Steel Ring" "Fingerless Silk Gloves" "Coronal Maul" "Opal Ring" "Vermillion Ring"
+	BaseType "Bone Helmet" "Steel Ring" "Fingerless Silk Gloves" "Coronal Maul" "Opal Ring" "Vermillion Ring" "Spiked Gloves"
 	SetFontSize 45
 	SetTextColor 123 50 165 255             # TEXTCOLOR:	 ShaperElder
 	SetBorderColor 128 50 165 255           # BORDERCOLOR:	 Shaper T1
@@ -715,7 +715,7 @@ Show # $tier->t1-2 $type->rare->elder
 	HasInfluence Elder
 	ItemLevel >= 84
 	Rarity <= Rare
-	BaseType "Astral Plate" "Spiked Gloves" "Crystal Belt"
+	BaseType "Astral Plate" "Heavy Belt" "Crystal Belt"
 	SetFontSize 45
 	SetTextColor 123 50 165 255             # TEXTCOLOR:	 ShaperElder
 	SetBorderColor 128 50 165 255           # BORDERCOLOR:	 Shaper T1
@@ -728,7 +728,7 @@ Show # $tier->t1-3 $type->rare->elder
 	HasInfluence Elder
 	ItemLevel >= 86
 	Rarity <= Rare
-	BaseType "Two-Toned Boots" "Heavy Belt" "Vaal Regalia" "Gripped Gloves" "Zodiac Leather" "Marble Amulet" "Hubris Circlet" "Assassin's Garb" "Royal Burgonet" "Eternal Burgonet" "Glorious Plate" "Ezomyte Burgonet" "Titanium Spirit Shield" "Prismatic Ring"
+	BaseType "Two-Toned Boots" "Vaal Regalia" "Gripped Gloves" "Zodiac Leather" "Marble Amulet" "Hubris Circlet" "Assassin's Garb" "Royal Burgonet" "Eternal Burgonet" "Glorious Plate" "Ezomyte Burgonet" "Titanium Spirit Shield"
 	SetFontSize 45
 	SetTextColor 123 50 165 255             # TEXTCOLOR:	 ShaperElder
 	SetBorderColor 128 50 165 255           # BORDERCOLOR:	 Shaper T1
@@ -745,7 +745,7 @@ Show # $tier->t2-1 $type->rare->elder
 	HasInfluence Elder
 	ItemLevel >= 80
 	Rarity <= Rare
-	BaseType "Woodful Staff" "Astral Plate" "Bone Helmet" "Stygian Vise" "Crystal Belt" "Fingerless Silk Gloves" "Heavy Belt" "Sorcerer Gloves" "Opal Ring" "Spiked Gloves" "Dragon Mace" "Wyrmbone Rapier" "Mind Cage" "Royal Burgonet" "Prismatic Ring" "Vermillion Ring" "Gripped Gloves" "Marble Amulet" "Steel Ring" "Quartz Wand" "Coronal Maul" "Eternal Burgonet" "Ezomyte Tower Shield" "Mesh Boots" "Carved Wand"
+	BaseType "Mesh Boots" "Woodful Staff" "Astral Plate" "Bone Helmet" "Stygian Vise" "Crystal Belt" "Fingerless Silk Gloves" "Heavy Belt" "Maraketh Bow" "Opal Ring" "Spiked Gloves" "Quartz Wand" "Wyrmbone Rapier" "Battle Plate" "Royal Burgonet" "Oak Buckler" "Vermillion Ring" "Gripped Gloves" "Marble Amulet" "Steel Ring" "Iron Greaves" "Coronal Maul" "Eternal Burgonet" "Ezomyte Tower Shield" "Dragon Mace" "Carved Wand" "Solar Maul"
 	SetFontSize 45
 	SetTextColor 255 255 255 255            # TEXTCOLOR:	 Cosmetic White
 	SetBorderColor 255 255 255 255          # BORDERCOLOR:	 T1 highlight
@@ -758,7 +758,7 @@ Show # $tier->t2-2 $type->rare->elder
 	HasInfluence Elder
 	ItemLevel >= 85
 	Rarity <= Rare
-	BaseType "Pinnacle Tower Shield" "Convoking Wand" "Blue Pearl Amulet" "Sorcerer Boots" "Bone Armour" "Diamond Ring" "Colossal Tower Shield" "Lithe Blade" "Sundering Axe" "Hubris Circlet" "Vaal Greaves" "Imperial Claw" "Quartz Sceptre" "Leather Belt" "Siege Helmet" "Magistrate Crown" "Eclipse Staff" "Exquisite Leather" "Harbinger Bow" "Lapis Amulet" "Jade Amulet" "Zodiac Leather" "Jewelled Foil" "Horned Sceptre" "Titan Greaves" "Maraketh Bow" "Titan Gauntlets" "Runic Hatchet" "Vaal Regalia" "Gemini Claw" "Deicide Mask" "Sadist Garb" "Opal Wand" "Citrine Amulet" "Siege Axe" "Titanium Spirit Shield" "Onyx Amulet" "Crystal Sceptre" "Turquoise Amulet" "Sage Wand" "Soldier's Brigandine" "Full Dragonscale" "Vaal Mask" "Two-Stone Ring" "Lacquered Helmet" "Ebony Tower Shield" "Bronze Tower Shield" "Legion Hammer" "Amber Amulet" "Lunaris Circlet" "Assassin's Garb" "Fright Maul" "Harmonic Spirit Shield" "Grappler" "Ochre Sceptre" "Great Mallet" "Iron Hat" "Zealot Helmet" "Ezomyte Staff" "Silken Hood" "Samite Helmet" "Topaz Ring" "Eye Gouger" "Piledriver" "Courtesan Sword" "Champion Kite Shield" "Lion Pelt" "Crusader Helmet" "Gilded Buckler" "Opal Sceptre" "Glorious Plate" "Cerulean Ring" "Lead Sceptre" "Solar Maul" "Exquisite Blade" "Aventail Helmet" "Gladiator Plate" "Pig-Faced Bascinet" "Fencer Helm" "Faun's Horn" "Vaal Axe" "Reaver Helmet" "Praetor Crown" "Gladiator Helmet" "Nightmare Bascinet" "Serpentine Staff" "Great Crown" "Sinner Tricorne" "Harlequin Mask" "Solaris Circlet" "Raven Mask" "Ursine Pelt" "Prophet Crown" "Necromancer Circlet" "Fluted Bascinet" "Behemoth Mace" "Two-Toned Boots" "Agate Amulet" "Coral Amulet" "Lacquered Buckler" "Reaver Axe" "Vanguard Belt" "Battle Hammer" "Steelhead" "Ezomyte Burgonet" "Imperial Bow" "Silk Gloves" "Throat Stabber"
+	BaseType "Pinnacle Tower Shield" "Convoking Wand" "Sorcerer Gloves" "Coral Ring" "Sorcerer Boots" "Timber Axe" "Bone Armour" "Diamond Ring" "Colossal Tower Shield" "Lithe Blade" "Ezomyte Dagger" "Hubris Circlet" "Vaal Greaves" "Imperial Claw" "Sadist Garb" "Leather Belt" "Siege Helmet" "Magistrate Crown" "Eclipse Staff" "Exquisite Leather" "Crusader Boots" "Lapis Amulet" "Jade Amulet" "Zodiac Leather" "Jewelled Foil" "Horned Sceptre" "Titan Greaves" "Ezomyte Staff" "Vanguard Belt" "Vaal Regalia" "Gemini Claw" "Deicide Mask" "Full Dragonscale" "Opal Wand" "Citrine Amulet" "Siege Axe" "Titanium Spirit Shield" "Onyx Amulet" "Crystal Sceptre" "Turquoise Amulet" "Ambusher" "Vaal Hatchet" "Ezomyte Spiked Shield" "Sapphire Ring" "Vaal Mask" "Steel Circlet" "Two-Stone Ring" "Crusader Gloves" "Lacquered Buckler" "Ebony Tower Shield" "Holy Chainmail" "Visored Sallet" "Arena Plate" "Amber Amulet" "Lunaris Circlet" "Assassin's Garb" "Serpentine Staff" "Harmonic Spirit Shield" "Grappler" "Ochre Sceptre" "Great Mallet" "Iron Hat" "Zealot Helmet" "Shackled Boots" "Silken Hood" "Samite Helmet" "Topaz Ring" "Golden Mask" "Piledriver" "Courtesan Sword" "Champion Kite Shield" "Lion Pelt" "Crusader Helmet" "Archon Kite Shield" "Opal Sceptre" "Glorious Plate" "Cerulean Ring" "Elder Sword" "Agate Amulet" "Exquisite Blade" "Aventail Helmet" "Gladiator Plate" "Pig-Faced Bascinet" "Bone Circlet" "Fencer Helm" "Faun's Horn" "Vaal Axe" "Reaver Helmet" "Praetor Crown" "Gladiator Helmet" "Iron Sceptre" "Nightmare Bascinet" "Secutor Helm" "Great Crown" "Sinner Tricorne" "Harlequin Mask" "Solaris Circlet" "Raven Mask" "Ursine Pelt" "Prophet Crown" "Necromancer Circlet" "Fluted Bascinet" "Behemoth Mace" "Harbinger Bow" "Deerskin Gloves" "Two-Toned Boots" "Blue Pearl Amulet" "Mind Cage" "Coral Amulet" "Compound Spiked Shield" "Reaver Axe" "Titan Gauntlets" "Battle Hammer" "Steelhead" "Sage Wand" "Buckskin Tower Shield" "Ruby Ring" "Fright Maul" "Ezomyte Burgonet"
 	SetFontSize 45
 	SetTextColor 255 255 255 255            # TEXTCOLOR:	 Cosmetic White
 	SetBorderColor 255 255 255 255          # BORDERCOLOR:	 T1 highlight
@@ -5286,7 +5286,7 @@ Show # $tier->t1 $type->currency->prophecy
 Show # $tier->t2 $type->currency->prophecy
 	Class Currency
 	BaseType "Prophecy"
-	Prophecy "The Jeweller's Touch" "The King's Path" "Blind Faith" "A Dishonourable Death" "Darktongue's Shriek" "Monstrous Treasure" "The Misunderstood Queen" "The Bowstring's Music"
+	Prophecy "The Jeweller's Touch" "The King's Path" "Blind Faith" "A Dishonourable Death" "Darktongue's Shriek" "The Misunderstood Queen" "The Bowstring's Music"
 	SetFontSize 45
 	SetTextColor 255 255 255 255            # TEXTCOLOR:	 Cosmetic White
 	SetBorderColor 255 255 255 255          # BORDERCOLOR:	 T1 highlight
@@ -5299,7 +5299,7 @@ Show # $tier->t2 $type->currency->prophecy
 Show # $tier->t3 $type->currency->prophecy
 	Class Currency
 	BaseType "Prophecy"
-	Prophecy "Vaal Winds" "A Master Seeks Help" "Cleanser of Sins" "The Bishop's Legacy" "Twice Enchanted" "Ancient Doom" "Flesh of the Beast" "The Apex Predator" "The Hollow Pledge" "The Servant's Heart" "The Unbreathing Queen V" "Unbearable Whispers V" "The Great Leader of the North" "A Vision of Ice and Fire" "Wind and Thunder" "Fire and Brimstone" "The Feral Lord V" "The Silverwood" "Last of the Wildmen" "Battle Hardened" "The Great Mind of the North" "The Plaguemaw V" "The Malevolent Witch" "Bountiful Traps" "The Beautiful Guide" "Plague of Rats" "Plague of Frogs" "Lightning Falls" "Fire and Ice" "The Karui Rebellion" "Erasmus' Gift" "Fire, Wood and Stone"
+	Prophecy "Vaal Winds" "A Master Seeks Help" "Cleanser of Sins" "The Bishop's Legacy" "Twice Enchanted" "Ancient Doom" "Flesh of the Beast" "The Apex Predator" "The Hollow Pledge" "The Servant's Heart" "The Unbreathing Queen V" "Unbearable Whispers V" "The Great Leader of the North" "A Vision of Ice and Fire" "Wind and Thunder" "Fire and Brimstone" "The Feral Lord V" "The Silverwood" "Last of the Wildmen" "Battle Hardened" "The Great Mind of the North" "The Plaguemaw V" "The Malevolent Witch" "Bountiful Traps" "Monstrous Treasure" "Fire and Ice" "The Beautiful Guide" "The Karui Rebellion" "Fire, Wood and Stone"
 	SetFontSize 45
 	SetTextColor 0 0 0 255                  # TEXTCOLOR:	 High Special Base
 	SetBorderColor 0 0 0                    # BORDERCOLOR:	 Neutral T1
@@ -5311,7 +5311,7 @@ Show # $tier->t3 $type->currency->prophecy
 Show # $tier->t3mapping $type->currency->prophecy
 	Class Currency
 	BaseType "Prophecy"
-	Prophecy "Anarchy's End III" "Anarchy's End IV" "Beyond Sight III" "Beyond Sight IV" "Crushing Squall" "Deadly Rivalry V" "Deadly Twins" "Fire from the Sky" "Possessed Foe" "The Cursed Choir" "The Dreamer's Dream" "The Fortune Teller's Collection" "The Four Feral Exiles" "The Hungering Swarm" "The Twins" "The Warmongers III" "The Warmongers IV" "Waiting in Ambush" "Reforged Bonds" "Ice from Above" "Overflowing Riches" "Mysterious Invaders" "Erased from Memory" "The Trembling Earth" "The Undead Storm"
+	Prophecy "Anarchy's End III" "Anarchy's End IV" "Beyond Sight III" "Beyond Sight IV" "Crushing Squall" "Deadly Rivalry V" "Deadly Twins" "Erasmus' Gift" "Fire from the Sky" "Lightning Falls" "Plague of Frogs" "Possessed Foe" "The Cursed Choir" "The Dreamer's Dream" "The Fortune Teller's Collection" "The Four Feral Exiles" "The Hungering Swarm" "The Twins" "The Warmongers III" "The Warmongers IV" "Waiting in Ambush" "Reforged Bonds" "Ice from Above" "Plague of Rats" "Overflowing Riches" "Mysterious Invaders" "Erased from Memory" "The Trembling Earth" "The Undead Storm"
 	SetFontSize 45
 	SetTextColor 159 15 213 255
 	SetBorderColor 159 15 213 255
@@ -5414,7 +5414,7 @@ Show # $tier->t1 $type->divination
 
 Show # $tier->t2 $type->divination
 	Class "Divination"
-	BaseType "Chaotic Disposition" "The Cartographer" "The Eye of Terror" "Void of the Elements" "The Queen" "The Saint's Treasure" "The Void" "The Celestial Stone" "The Enlightened" "The Celestial Justicar" "The Escape" "Etched in Blood" "The Mayor" "The Soul" "Burning Blood" "The Warlord" "The Bargain" "Squandered Prosperity" "The Craving" "Blessing of God" "The Undaunted" "Pride Before the Fall" "Azyran's Reward"
+	BaseType "Chaotic Disposition" "The Cartographer" "The Eye of Terror" "Void of the Elements" "The Queen" "The Saint's Treasure" "The Void" "The Celestial Stone" "The Enlightened" "The Celestial Justicar" "The Escape" "Etched in Blood" "The Mayor" "The Soul" "Burning Blood" "The Warlord" "The Bargain" "Squandered Prosperity" "The Craving" "Blessing of God" "The Undaunted" "Pride Before the Fall" "Azyran's Reward" "The Valkyrie"
 	SetFontSize 45
 	SetTextColor 255 255 255 255            # TEXTCOLOR:	 High Special Base
 	SetBorderColor 255 255 255 255
@@ -5429,7 +5429,7 @@ Show # $tier->t2 $type->divination
 
 Show # $tier->t3 $type->divination
 	Class "Divination"
-	BaseType "The Life Thief" "The Wolven King's Bite" "Boon of the First Ones" "Bowyer's Dream" "The Chosen" "Emperor of Purity" "Heterochromia" "Humility" "Last Hope" "Lucky Deck" "Perfection" "Remembrance" "The Artist" "The Brittle Emperor" "The Chains that Bind" "The Dapper Prodigy" "The Dark Mage" "The Dreamer" "The Endless Darkness" "The Offering" "The Hoarder" "The Jeweller's Boon" "The King's Heart" "The Last One Standing" "Dark Dreams" "The Vast" "The Landing" "The Porcupine" "The Price of Protection" "Mawr Blaidd" "The Risk" "Akil's Prophecy" "The Valkyrie" "The Valley of Steel Boxes" "The Rite of Elements" "Vanity" "The Professor" "The Heroic Shot" "The Sephirot" "The Fishmonger" "Divine Justice" "The Old Man" "The Ethereal" "The Sacrifice" "Friendship" "Deathly Designs" "The Throne" "Dialla's Subjugation" "The Hale Heart" "The Wilted Rose" "The Mad King" "The Skeleton" "The Bones"
+	BaseType "The Life Thief" "The Wolven King's Bite" "Boon of the First Ones" "Bowyer's Dream" "Emperor of Purity" "Heterochromia" "Humility" "Last Hope" "Lucky Deck" "Perfection" "Remembrance" "The Artist" "The Brittle Emperor" "The Chains that Bind" "The Dapper Prodigy" "The Dark Mage" "The Dreamer" "The Endless Darkness" "The Offering" "The Hoarder" "The Jeweller's Boon" "The King's Heart" "The Last One Standing" "Dark Dreams" "The Vast" "The Landing" "The Porcupine" "The Price of Protection" "Mawr Blaidd" "The Risk" "Akil's Prophecy" "The Valley of Steel Boxes" "The Rite of Elements" "Vanity" "The Professor" "The Heroic Shot" "The Sephirot" "The Fishmonger" "Divine Justice" "The Old Man" "The Ethereal" "The Sacrifice" "Friendship" "Deathly Designs" "The Throne" "Dialla's Subjugation" "The Hale Heart" "The Wilted Rose" "The Mad King" "The Bones"
 	SetFontSize 45
 	SetTextColor 0 0 0 255                  # TEXTCOLOR:	 High Special Base
 	SetBorderColor 0 0 0 255
@@ -5467,7 +5467,7 @@ Show # %H4 %C5 $tier->t5c $type->divination
 
 Show # %H2 %C3 $tier->t5 $type->divination
 	Class "Divination"
-	BaseType "A Mother's Parting Gift" "Audacity" "Birth of the Three" "Dark Temptation" "Destined to Crumble" "Dying Anguish" "Lantador's Lost Love" "Light and Truth" "Might is Right" "Prosperity" "Rain Tempter" "Rats" "Struck by Lightning" "The Blazing Fire" "The Carrion Crow" "The Coming Storm" "The Conduit" "The Twins" "The Fathomless Depths" "The Hermit" "The Army of Blood" "The Inoculated" "The King's Blade" "The Lich" "The Lover" "The Surgeon" "The Metalsmith's Gift" "The Oath" "The Rabid Rhoa" "The Ruthless Ceinture" "The Scarred Meadow" "The Sigil" "The Siren" "The Sun" "The Warden" "The Watcher" "The Web" "The Witch" "Thunderous Skies" "Turn the Other Cheek" "Tranquillity" "The Deceiver" "Anarchy's Price" "Cartographer's Delight"
+	BaseType "A Mother's Parting Gift" "Audacity" "Birth of the Three" "Dark Temptation" "Destined to Crumble" "Dying Anguish" "Lantador's Lost Love" "Light and Truth" "Might is Right" "Prosperity" "Rain Tempter" "Rats" "Struck by Lightning" "The Blazing Fire" "The Carrion Crow" "The Coming Storm" "The Conduit" "The Twins" "The Fathomless Depths" "The Hermit" "The Incantation" "The Inoculated" "The King's Blade" "The Lich" "The Lover" "The Surgeon" "The Metalsmith's Gift" "The Oath" "The Rabid Rhoa" "The Ruthless Ceinture" "The Scarred Meadow" "The Sigil" "The Siren" "The Sun" "The Warden" "The Watcher" "The Web" "The Witch" "Thunderous Skies" "Turn the Other Cheek" "Tranquillity" "The Deceiver" "Anarchy's Price" "Cartographer's Delight" "Death" "The Army of Blood"
 	SetFontSize 36
 	SetTextColor 0 0 0 255                  # TEXTCOLOR:	 High Special Base
 	SetBorderColor 0 0 0                    # BORDERCOLOR:	 Neutral T1.5
@@ -5605,7 +5605,7 @@ Show # $tier->t1 $type->uniques
 
 Show # $tier->t2 $type->uniques
 	Rarity Unique
-	BaseType "Arcanist Slippers" "Close Helmet" "Occultist's Vestment" "Sanctified Life Flask" "Sapphire Flask" "Timeworn Claw" "Holy Chainmail" "Clasped Mitts" "Bronzescale Boots" "Elegant Ringmail" "Steel Ring" "Hallowed Hybrid Flask" "Archon Kite Shield Piece" "Ivory Watchstone" "Riveted Gloves" "Ritual Sceptre" "Gold Ring" "Coiled Staff" "Nubuck Boots"
+	BaseType "Close Helmet" "Occultist's Vestment" "Sanctified Life Flask" "Sapphire Flask" "Timeworn Claw" "Holy Chainmail" "Clasped Mitts" "Bronzescale Boots" "Elegant Ringmail" "Steel Ring" "Hallowed Hybrid Flask" "Archon Kite Shield Piece" "Ivory Watchstone" "Riveted Gloves" "Nubuck Boots" "Coiled Staff" "Chain Gloves"
 	SetFontSize 45
 	SetTextColor 0 0 0 255                  # TEXTCOLOR:	 High Special Base
 	SetBorderColor 0 0 0                    # BORDERCOLOR:	 Neutral T1
@@ -5645,7 +5645,7 @@ Show # $tier->multileague $type->uniques
 
 Show # $tier->multispecial $type->uniques
 	Rarity Unique
-	BaseType "Imperial Skean" "Iron Ring" "Magistrate Crown" "Murder Mitts" "Onyx Amulet" "Crusader Gloves" "Studded Belt" "Sulphur Flask" "Turquoise Amulet" "Sorcerer Boots" "Judgement Staff" "Stibnite Flask" "Gavel"
+	BaseType "Imperial Skean" "Iron Ring" "Magistrate Crown" "Murder Mitts" "Onyx Amulet" "Crusader Gloves" "Studded Belt" "Sulphur Flask" "Turquoise Amulet" "Sorcerer Boots" "Judgement Staff" "Stibnite Flask" "Gavel" "Gold Ring"
 	SetFontSize 45
 	SetTextColor 0 0 0 255                  # TEXTCOLOR:	 High Special Base
 	SetBorderColor 0 0 0                    # BORDERCOLOR:	 Neutral T1
@@ -5727,7 +5727,7 @@ Show # %D4 $tier->prophecy $type->uniques
 
 Show # %H5 %C4 $tier->hideable $type->uniques
 	Rarity Unique
-	BaseType "Ambusher" "Antique Greaves" "Antique Rapier" "Astral Plate" "Auric Mace" "Aventail Helmet" "Awl" "Baroque Round Shield" "Basket Rapier" "Bastard Sword" "Bone Armour" "Bone Circlet" "Boot Blade" "Boot Knife" "Branded Kite Shield" "Broadhead Arrow Quiver" "Bronze Gauntlets" "Bronze Sceptre" "Bronzescale Gauntlets" "Buckskin Tunic" "Burnished Spiked Shield" "Lacquered Buckler" "Chiming Spirit Shield" "Colossal Tower Shield" "Compound Spiked Shield" "Embroidered Gloves" "Conquest Chainmail" "Copper Plate" "Corrugated Buckler" "Crusader Chainmail" "Crystal Sceptre" "Cutthroat's Garb" "Decimation Bow" "Decorative Axe" "Deerskin Boots" "Demon Dagger" "Demon's Horn" "Desert Brigandine" "Destroyer Regalia" "Dragonscale Boots" "Dragonscale Gauntlets" "Dread Maul" "Dream Mace" "Driftwood Wand" "Dusk Blade" "Elder Sword" "Engraved Wand" "Estoc" "Ezomyte Axe" "Flaying Knife" "Fright Claw" "Full Scale Armour" "Gladius" "Goat's Horn" "Golden Mask" "Goliath Gauntlets" "Great Helmet" "Greater Mana Flask" "Grinning Fetish" "Gut Ripper" "Harmonic Spirit Shield" "Headsman Axe" "Highland Blade" "Imbued Wand" "Infernal Axe" "Iron Gauntlets" "Ivory Spirit Shield" "Jagged Foil" "Karui Sceptre" "Lacquered Helmet" "Lathi" "Lion Sword" "Long Staff" "Loricated Ringmail" "Lunaris Circlet" "Marble Amulet" "Mesh Boots" "Mesh Gloves" "Military Staff" "Mosaic Kite Shield" "Nailed Fist" "Opal Sceptre" "Ornate Mace" "Ornate Ringmail" "Pine Buckler" "Plague Mask" "Plated Greaves" "Platinum Kris" "Poleaxe" "Polished Spiked Shield" "Primordial Staff" "Quartz Wand" "Quicksilver Flask" "Recurve Bow" "Reinforced Tower Shield" "Riveted Boots" "Rock Breaker" "Rotted Round Shield" "Royal Skean" "Sabre" "Sage's Robe" "Full Dragonscale" "Samite Gloves" "Samite Helmet" "Satin Gloves" "Scholar's Robe" "Secutor Helm" "Crystal Belt" "Serpentine Staff" "Shadow Axe" "Shagreen Boots" "Sharkskin Boots" "Silk Slippers" "Soldier Boots" "Spidersilk Robe" "Spiked Club" "Steel Gauntlets" "Stiletto" "Strapped Boots" "Studded Round Shield" "Sundering Axe" "Supreme Spiked Shield" "Terror Maul" "Thresher Claw" "Tiger Sword" "Tomahawk" "Tribal Circlet" "Tricorne" "Twilight Blade" "Ursine Pelt" "Vaal Buckler" "Vaal Claw" "Vaal Hatchet" "Vanguard Belt" "Vile Staff" "Visored Sallet" "War Sword" "Whalebone Rapier" "Wool Gloves" "Wool Shoes" "Wrapped Mitts" "Wyrmscale Gauntlets" "Zealot Helmet" "Platinum Sceptre" "Shagreen Gloves" "Slaughter Knife" "Hellion's Paw" "Short Bow" "Abyssal Axe" "Throat Stabber" "Diamond Flask" "Destiny Leather" "Serpentscale Gauntlets" "Nubuck Gloves" "Sinner Tricorne" "Deicide Mask" "Lacquered Garb" "Conjurer Boots" "Spike-Point Arrow Quiver" "Laminated Kite Shield" "Necromancer Silks" "Sorcerer Gloves" "Assassin's Garb" "Conjurer Gloves" "Sentinel Jacket"
+	BaseType "Ambusher" "Antique Greaves" "Antique Rapier" "Astral Plate" "Auric Mace" "Aventail Helmet" "Awl" "Baroque Round Shield" "Basket Rapier" "Bastard Sword" "Bone Armour" "Bone Circlet" "Boot Blade" "Boot Knife" "Branded Kite Shield" "Broadhead Arrow Quiver" "Bronze Gauntlets" "Bronze Sceptre" "Bronzescale Gauntlets" "Buckskin Tunic" "Burnished Spiked Shield" "Lacquered Buckler" "Chiming Spirit Shield" "Colossal Tower Shield" "Compound Spiked Shield" "Embroidered Gloves" "Conquest Chainmail" "Copper Plate" "Corrugated Buckler" "Crusader Chainmail" "Crystal Sceptre" "Cutthroat's Garb" "Decimation Bow" "Decorative Axe" "Deerskin Boots" "Demon Dagger" "Demon's Horn" "Desert Brigandine" "Destroyer Regalia" "Dragonscale Boots" "Dragonscale Gauntlets" "Dread Maul" "Dream Mace" "Driftwood Wand" "Dusk Blade" "Elder Sword" "Engraved Wand" "Estoc" "Ezomyte Axe" "Flaying Knife" "Fright Claw" "Full Scale Armour" "Gladius" "Goat's Horn" "Golden Mask" "Goliath Gauntlets" "Great Helmet" "Greater Mana Flask" "Grinning Fetish" "Gut Ripper" "Harmonic Spirit Shield" "Headsman Axe" "Highland Blade" "Imbued Wand" "Infernal Axe" "Iron Gauntlets" "Ivory Spirit Shield" "Jagged Foil" "Karui Sceptre" "Lacquered Helmet" "Lathi" "Lion Sword" "Long Staff" "Loricated Ringmail" "Lunaris Circlet" "Marble Amulet" "Mesh Boots" "Mesh Gloves" "Military Staff" "Mosaic Kite Shield" "Nailed Fist" "Opal Sceptre" "Ornate Mace" "Ornate Ringmail" "Pine Buckler" "Plague Mask" "Plated Greaves" "Platinum Kris" "Poleaxe" "Polished Spiked Shield" "Primordial Staff" "Quartz Wand" "Quicksilver Flask" "Recurve Bow" "Reinforced Tower Shield" "Riveted Boots" "Rock Breaker" "Rotted Round Shield" "Royal Skean" "Sabre" "Sage's Robe" "Saintly Chainmail" "Samite Gloves" "Samite Helmet" "Satin Gloves" "Scholar's Robe" "Secutor Helm" "Crystal Belt" "Serpentine Staff" "Shadow Axe" "Shagreen Boots" "Sharkskin Boots" "Silk Slippers" "Soldier Boots" "Spidersilk Robe" "Spiked Club" "Steel Gauntlets" "Stiletto" "Strapped Boots" "Studded Round Shield" "Sundering Axe" "Supreme Spiked Shield" "Terror Maul" "Thresher Claw" "Tiger Sword" "Tomahawk" "Tribal Circlet" "Tricorne" "Twilight Blade" "Ursine Pelt" "Vaal Buckler" "Vaal Claw" "Vaal Hatchet" "Vanguard Belt" "Vile Staff" "Visored Sallet" "War Sword" "Whalebone Rapier" "Wool Gloves" "Wool Shoes" "Wrapped Mitts" "Wyrmscale Gauntlets" "Zealot Helmet" "Platinum Sceptre" "Shagreen Gloves" "Slaughter Knife" "Hellion's Paw" "Short Bow" "Abyssal Axe" "Throat Stabber" "Diamond Flask" "Destiny Leather" "Serpentscale Gauntlets" "Full Dragonscale" "Sinner Tricorne" "Deicide Mask" "Lacquered Garb" "Conjurer Boots" "Spike-Point Arrow Quiver" "Laminated Kite Shield" "Necromancer Silks" "Sorcerer Gloves" "Assassin's Garb" "Conjurer Gloves" "Sentinel Jacket"
 	SetFontSize 45
 	SetTextColor 175 96 37 255              # TEXTCOLOR:	 Unique
 	SetBorderColor 175 96 37 255            # BORDERCOLOR:	 Aspect Unique
